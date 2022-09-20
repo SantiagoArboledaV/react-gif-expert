@@ -1,0 +1,115 @@
+* {
+  font-family: Helvetica, Arial, sans-serif;
+  background-color: rgb(234, 234, 234);
+}
+
+body {
+  padding: 50px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3.5em;
+}
+
+.form-input {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-input form {
+  width: 100%;
+}
+
+input {
+  margin: 10px;
+  background-color: white;
+  border-radius: 20px;
+  color: black;
+  font-size: 1.4em;
+  outline: none;
+  padding: 20px 25px;
+  width: 40%;
+  display: inline-block;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-size: 3rem;
+  margin-bottom: 5px;
+}
+
+.card-grid {
+  display: flex;
+  flex: 1 1 0px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  align-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.03);
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  overflow: hidden;
+  position: relative;
+}
+
+.card p {
+  background-color: white;
+  flex: 1;
+  font-size: 1.6rem;
+  margin-top: 5px;
+  padding: 5px 20px 0px 20px;
+  text-align: center;
+}
+
+.card img {
+  object-fit: cover;
+}
+
+.delete-icon {
+  position: absolute;
+  font-size: 30px;
+  width: 1em;
+  text-align: center;
+  background-color: red;
+  color: white;
+  font-weight: 700;
+  top: 0;
+  right: 0;
+  z-index: 1000;
+  cursor: pointer;
+  border-radius: 20%;
+}
+
+.card img {
+  width: 100%;
+  height: 300px;
+}
+
+.addGif button {
+  background-color: rgb(66, 177, 66);
+  height: 200px;
+  width: 200px;
+  font-size: 7em;
+  border-radius: 20%;
+  margin-top: 0.7em;
+}
+
+button {
+  background-color: aqua;
+  border-radius: 10%;
+  font-size: 1.4em;
+  height: 50px;
+}
